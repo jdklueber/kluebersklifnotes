@@ -1,4 +1,10 @@
-# Recipes and Power Reqs/Building Footprints
+# Recipes, Power Reqs, and Notes
+
+## Logistics Patterns
+
+* Manufacture locally to taps.
+* Resist exports of non-complex parts (compound trees, Project Assembly.)
+* Establish regional hubs for imports and exports.
 
 
 
@@ -21,11 +27,14 @@ Note on Train Stations:  Smooth rail curves have a radius of 17m, indication a 3
 
 ## Power Buildings
 
-| Plant          | Input 1       | Input 2  | Output |
-| -------------- | ------------- | -------- | ------ |
-| Coal Generator | 15 Coal       | 45 Water | 75 MW  |
-| Fuel Generator | 40 Fuel       |          | 250 MW |
-|                | 7.5 Turbofuel |          | 250 MW |
+| Plant            | Input 1       | Input 2  | Output     |
+| ---------------- | ------------- | -------- | ---------- |
+| Coal Generator   | 15 Coal       | 45 Water | 75 MW      |
+| Fuel Generator   | 40 Fuel       |          | 250 MW     |
+|                  | 7.5 Turbofuel |          | 250 MW     |
+| Geothermal Plant | Impure Geyser |          | 50-150 MW  |
+|                  | Normal Geyser |          | 100-300 MW |
+|                  | Pure Geyser   |          | 200-600 MW |
 
 
 
@@ -93,7 +102,9 @@ Basic ingots not listed for brevity as they are a 1:1 resource.
 | Part               | Input 1      | Input 2  | Input 3 | Input 4 | Output 1     | Output 2 |
 | ------------------ | ------------ | -------- | ------- | ------- | ------------ | -------- |
 | Cannister          | 30 Plastic   |          |         |         | 60 Cannister |          |
-| Plastic            | 30 Crude Oil |          |         |         | 20 Plastic   | 10 HOR   |
+| Coke               | 40 HOR       |          |         |         | 120 Coke     |          |
+| Fuel               | 60 Crude Oil |          |         |         | 40 Fuel      | 30 Resin |
+| 30 Plastic         | 30 Crude Oil |          |         |         | 20 Plastic   | 10 HOR   |
 | * Residual Plastic | 60 Resin     | 20 Water |         |         | 20 Plastic   |          |
 | **Rubber**         | 30 Crude Oil |          |         |         | 20 Rubber    | 20 HOR   |
 
