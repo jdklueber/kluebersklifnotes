@@ -6,15 +6,16 @@
 
 | Name                   | Power Req | Footprint |
 | ---------------------- | --------- | --------- |
-| Constructor            | 4MW       | 8x10      |
 | Assembler              | 15MW      | 10x15     |
+| Constructor            | 4MW       | 8x10      |
+| Foundry                | 16MW      | 10x9      |
+| Manufacturer           | 55MW      | 18x20     |
 | Miner                  | 5MW       | --        |
 | Miner Mk2              | 12MW      | --        |
-| Smelter                | 4MW       | 6x9       |
-| Foundry                | 16MW      | 10x9      |
-| Water Extractor        | 20MW      | --        |
 | Refinery               | 30MW      | 8x20      |
+| Smelter                | 4MW       | 6x9       |
 | Train Station/Platform | 50MW      | 34x16     |
+| Water Extractor        | 20MW      | --        |
 
 Note on Train Stations:  Smooth rail curves have a radius of 17m, indication a 34x34 minimum platform size.  Thus, a 5x5 foundation should cover a circle and a 3x3 should cover a smooth 90 degree turn.
 
@@ -94,7 +95,7 @@ Basic ingots not listed for brevity as they are a 1:1 resource.
 | Cannister          | 30 Plastic   |          |         |         | 60 Cannister |          |
 | Plastic            | 30 Crude Oil |          |         |         | 20 Plastic   | 10 HOR   |
 | * Residual Plastic | 60 Resin     | 20 Water |         |         | 20 Plastic   |          |
-| !! Rubber          | 30 Crude Oil |          |         |         | 20 Rubber    | 20 HOR   |
+| **Rubber**         | 30 Crude Oil |          |         |         | 20 Rubber    | 20 HOR   |
 
 
 
