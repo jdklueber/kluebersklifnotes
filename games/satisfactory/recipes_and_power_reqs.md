@@ -46,6 +46,15 @@ Note on Train Stations:  Smooth rail curves have a radius of 17m, indication a 3
 
 Basic ingots not listed for brevity as they are a 1:1 resource.
 
+## Aluminum
+| Part             | Input 1              | Input 2         | Input 3 | Input 4 | Output 1             | Output 2  |
+| ---------------- | -------------------- | --------------- | ------- | ------- | -------------------- | --------- |
+| Alumina Solution | 120 Bauxite          | 180 Water       |         |         | 120 Alumina Solution | 50 Silica |
+| Aluminum Scrap   | 240 Alumina Solution | 120 Coal        |         |         | 360 Aluminum Scrap   | 120 Water |
+| Aluminum Ingot   | 90 Aluminum Scrap    | 75 Silica       |         |         | 60 Aluminum Ingot    |           |
+| Alclad Sheet     | 30 Aluminum Ingot    | 10 Copper Ingot |         |         | 30 Alclad Sheet      |           |
+| Aluminum Casing  | 90 Aluminum Ingot    |                 |         |         | 60 Aluminum Casing   |           |
+
 
 
 ### Caterium
@@ -55,6 +64,7 @@ Basic ingots not listed for brevity as they are a 1:1 resource.
 | Caterium Ingot        | 45 Caterium  |          |         |         | 15 Cat Ingot |          |
 | * Pure Caterium Ingot | 24 Caterium  | 24 Water |         |         | 12 Cat Ingot |          |
 | Quickwire             | 12 Cat Ingot |          |         |         | 60 QW        |          |
+
 
 
 ### Concrete
@@ -68,32 +78,36 @@ Basic ingots not listed for brevity as they are a 1:1 resource.
 
 ### Copper
 
-| Part         | Input 1         | Input 2          | Input 3 | Input 4 | Output 1        | Output 2 |
-| ------------ | --------------- | ---------------- | ------- | ------- | --------------- | -------- |
-| **Cable**    | 60 Wire         |                  |         |         | 30 Cable        |          |
-| Copper Sheet | 20 Copper Ingot |                  |         |         | 10 Copper Sheet |          |
-| Wire         | 30 Copper Ingot |                  |         |         | 60 Wire         |          |
-| * Fused Wire | 12 Copper Ingot | 3 Caterium Ingot |         |         | 90 Wire         |          |
-| * Iron Wire  | 12.5 Iron Ingot |                  |         |         | 22.5 Wire       |          |
+| Part                   | Input 1           | Input 2              | Input 3 | Input 4 | Output 1          | Output 2 |
+| ---------------------- | ----------------- | -------------------- | ------- | ------- | ----------------- | -------- |
+| **Cable**              | 60 Wire           |                      |         |         | 30 Cable          |          |
+| * Coated Cable         | 37.5 Wire         | 15 Heavy Oil Residue |         |         | 67.5 Cable        |          |
+| Copper Sheet           | 20 Copper Ingot   |                      |         |         | 10 Copper Sheet   |          |
+| * Steamed Copper Sheet | 22.5 Copper Ingot | 22.5 Water           |         |         | 22.5 Copper Sheet |          |
+| Wire                   | 30 Copper Ingot   |                      |         |         | 60 Wire           |          |
+| * Fused Wire           | 12 Copper Ingot   | 3 Caterium Ingot     |         |         | 90 Wire           |          |
+| * Iron Wire            | 12.5 Iron Ingot   |                      |         |         | 22.5 Wire         |          |
 
 
 
 ### Iron
 
-| Part                            | Input 1          | Input 2      | Input 3 | Input 4 | Output 1      | Output 2 |
-| ------------------------------- | ---------------- | ------------ | ------- | ------- | ------------- | -------- |
-| * Basic Iron Ingot              | 25 Iron Ore      | 40 Limestone |         |         | 50 Iron Ingot |          |
-| Iron Plate                      | 30 Iron Ingots   |              |         |         | 20 Iron Plate |          |
-| Iron Rod                        | 15 Iron Ingots   |              |         |         | 15 Iron Rod   |          |
-| **Modular Frame (MF)**          | 3 RIP            | 12 Iron Rod  |         |         | 2 MF          |          |
-| * Bolted Modular Frame          | 7.5 RIP          | 140 Screw    |         |         | 5 MF          |          |
-| **Reinforced Iron Plate (RIP)** | 30 Iron Plate    | 60 Screw     |         |         | 5 RIP         |          |
-| * Bolted Iron Plate             | 90 Iron Plate    | 250 Screw    |         |         | 15 RIP        |          |
-| * Stitched Iron Plate           | 18.75 Iron Plate | 37.5 Wire    |         |         | 5.625 RIP     |          |
-| **Rotor (ROT)**                 | 20 Iron Rod      | 100 Screw    |         |         | 4 ROT         |          |
-| Screw (SCR)                     | 10 Iron Rod      |              |         |         | 40 Screw      |          |
-| * Cast Screw                    | 12.5 Iron Ingot  |              |         |         | 50 Screw      |          |
-| * Steel Screw                   | 5 Steel Beam     |              |         |         | 260 Screw     |          |
+| Part                            | Input 1          | Input 2       | Input 3 | Input 4 | Output 1        | Output 2 |
+| ------------------------------- | ---------------- | ------------- | ------- | ------- | --------------- | -------- |
+| * Basic Iron Ingot              | 25 Iron Ore      | 40 Limestone  |         |         | 50 Iron Ingot   |          |
+| Iron Plate                      | 30 Iron Ingots   |               |         |         | 20 Iron Plate   |          |
+| Iron Rod                        | 15 Iron Ingots   |               |         |         | 15 Iron Rod     |          |
+| * Steel Rod                     | 12 Steel Ingot   |               |         |         | 48 Iron Rod     |          |
+| **Modular Frame (MF)**          | 3 RIP            | 12 Iron Rod   |         |         | 2 MF            |          |
+| * Bolted Modular Frame          | 7.5 RIP          | 140 Screw     |         |         | 5 MF            |          |
+| * Steeled Frame                 | 2 RIP            | 10 Steel Pipe |         |         | 3 Modular Frame |          |
+| **Reinforced Iron Plate (RIP)** | 30 Iron Plate    | 60 Screw      |         |         | 5 RIP           |          |
+| * Bolted Iron Plate             | 90 Iron Plate    | 250 Screw     |         |         | 15 RIP          |          |
+| * Stitched Iron Plate           | 18.75 Iron Plate | 37.5 Wire     |         |         | 5.625 RIP       |          |
+| **Rotor (ROT)**                 | 20 Iron Rod      | 100 Screw     |         |         | 4 ROT           |          |
+| Screw (SCR)                     | 10 Iron Rod      |               |         |         | 40 Screw        |          |
+| * Cast Screw                    | 12.5 Iron Ingot  |               |         |         | 50 Screw        |          |
+| * Steel Screw                   | 5 Steel Beam     |               |         |         | 260 Screw       |          |
 
 
 
@@ -107,15 +121,17 @@ Basic ingots not listed for brevity as they are a 1:1 resource.
 | 30 Plastic         | 30 Crude Oil |          |         |         | 20 Plastic   | 10 HOR   |
 | * Residual Plastic | 60 Resin     | 20 Water |         |         | 20 Plastic   |          |
 | **Rubber**         | 30 Crude Oil |          |         |         | 20 Rubber    | 20 HOR   |
+| Polymer Resin      | 60 Oil       |          |         |         | 130 Resin    | 20 HOR   |
 
 
 
 ### Quartz
 
-| Part           | Input 1     | Input 2 | Input 3 | Input 4 | Output 1 | Output 2 |
-| -------------- | ----------- | ------- | ------- | ------- | -------- | -------- |
-| Quartz Crystal | 37.5 Quartz |         |         |         | 22.5 QC  |          |
-| Silica         | 22.5 Quartz |         |         |         | 37.5 Si  |          |
+| Part           | Input 1     | Input 2        | Input 3 | Input 4 | Output 1 | Output 2 |
+| -------------- | ----------- | -------------- | ------- | ------- | -------- | -------- |
+| Quartz Crystal | 37.5 Quartz |                |         |         | 22.5 QC  |          |
+| Silica         | 22.5 Quartz |                |         |         | 37.5 Si  |          |
+| * Cheap Silica | 22.5 Quartz | 37.5 Limestone |         |         | 52.5 Si  |          |
 
 
 
@@ -165,17 +181,20 @@ Basic ingots not listed for brevity as they are a 1:1 resource.
 | SAM Fluctuator                | 60 ReSAM             | 50 Wire              | 30 Steel Pipe |         | 10 SAMF                   |          |
 | Smokeless Powder              | 20 Black Powder      | 10 Heavy Oil Residue |               |         | 20 Smokeless Powder       |          |
 | **Stator**                    | 15 Steel Pipe        | 40 Wire              |               |         | 5 Stators                 |          |
+| * Quickwire Stator            | 16 Steel Pipe        | 60 Quickwire         |               |         | 8 Stator                  |          |
 | Turbofuel                     | 22.5 Fuel            | 15 Compacted Coal    |               |         | 18.75 Turbofuel           |          |
 
 
 
 ### Project Assembly
 
-| Part                  | Input 1          | Input 2         | Input 3         | Input 4 | Output 1        | Output 2 |
-| --------------------- | ---------------- | --------------- | --------------- | ------- | --------------- | -------- |
-| Adaptive Control Unit | 5 Auto Wire      | 5 Circuit Board | 1 HMF           | 2 Comp  | 1 ACU           |          |
-| **Automated Wiring**  | 25 Stators       | 50 Cable        |                 |         | 2.5 AW          |          |
-| Modular Engine        | 2 Motor          | 15 Rubber       | 2 Smart Plating |         | 1 ME            |          |
-| **Smart Plating**     | 2 RIP            | 2 Rotor         |                 |         | 2 Smart Plating |          |
-| Versatile Frame (VF)  | 25 Modular Frame | 30 Steel Beam   |                 |         | 5 VF            |          |
+| Part                    | Input 1            | Input 2         | Input 3         | Input 4 | Output 1        | Output 2 |
+| ----------------------- | ------------------ | --------------- | --------------- | ------- | --------------- | -------- |
+| Adaptive Control Unit   | 5 Auto Wire        | 5 Circuit Board | 1 HMF           | 2 Comp  | 1 ACU           |          |
+| **Automated Wiring**    | 25 Stators         | 50 Cable        |                 |         | 2.5 AW          |          |
+| Modular Engine          | 2 Motor            | 15 Rubber       | 2 Smart Plating |         | 1 ME            |          |
+| **Smart Plating**       | 2 RIP              | 2 Rotor         |                 |         | 2 Smart Plating |          |
+| * Plastic Smart Plating | 2.5 RIP            | 2.5 Rotor       | 7.5 Plastic     |         | 5 Smart Plating |          |
+| Versatile Framework     | 2.5 Modular Frame  | 30 Steel Beam   |                 |         | 5 VF            |          |
+| * Flexible Framework    | 3.75 Modular Frame | 22.5 Steel Beam | 30 Rubber       |         | 7.5 VF          |          |
 
