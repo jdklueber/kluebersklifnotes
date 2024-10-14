@@ -16,7 +16,7 @@
 
 ## Workflow
 
-### A. Part (alternative recipe if applicable) - ###/min
+### A. Recipe - ###/min
 
 BUILDING x #
 
