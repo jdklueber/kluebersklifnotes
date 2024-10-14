@@ -148,11 +148,10 @@ Basic ingots not listed for brevity as they are a 1:1 resource.
 
 | Part               | Input 1         | Input 2     | Input 3 | Input 4 | Output 1       | Output 2 |
 | ------------------ | --------------- | ----------- | ------- | ------- | -------------- | -------- |
-| Steel Ingot        | 45 Iron Ore     | 45 Coal     |         |         | 45 Steel Ingot |          |
-| * Coke Steel Ingot | 75 Iron Ore     | 75 Coke     |         |         | 100 Steel      |          |
 | **Steel Beam**     | 60 Steel Ingot  |             |         |         | 15 Steel Beam  |          |
 | * Molded Beam      | 120 Steel Ingot | 80 Concrete |         |         | 45 Steel Beam  |          |
 | Steel Ingot        | 45 Iron Ore     | 45 Coal     |         |         | 45 Steel Ingot |          |
+| * Coke Steel Ingot | 75 Iron Ore     | 75 Coke     |         |         | 100 Steel      |          |
 | Steel Pipe         | 30 Steel Ingot  |             |         |         | 20 Steel Pipe  |          |
 | * Iron Pipe        | 100 Iron Ingot  |             |         |         | 25 Steel Pipe  |          |
 
