@@ -40,7 +40,7 @@ Assembler x 8
 
 | ID   | Part         | Quantity/min | Destination ID |
 | ---- | ------------ | ------------ | -------------- |
-| 1    | Alclad Sheet | 240          | STORAGE        |
+| 1    | Alclad Sheet | 240          | **FINAL**      |
 
 ### B. Aluminum Ingot - 240/min
 
